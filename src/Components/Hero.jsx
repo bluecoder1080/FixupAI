@@ -5,9 +5,9 @@ import { assets } from "../assets/assets";
 const Hero = () => {
   const navigate = useNavigate();
   return (
-    <div className="px-4 sm:px-20 xl:px-32 flex items-center justify-center text-center bg-[url(/gradientBackground.png)] bg-cover bg-no-repeat min-h-screen text-black">
+    <div className="px-4 sm:px-20 xl:px-32 flex items-center justify-center text-center bg-[url(/gradientBackground.png)] bg-cover bg-no-repeat min-h-screen text-black ">
       <div className="max-w-3xl space-y-6">
-        <h1 className="text-4xl sm:text-5xl font-bold leading-tight text-black">
+        <h1 className="text-4xl sm:text-5xl font-bold leading-tight text-black mt-44">
           Supercharge Your Creativity with{" "}
           <span className="text-primary">AI Tools</span>
         </h1>
@@ -27,6 +27,7 @@ const Hero = () => {
             Trusted by 10k+ People
           </div>
         </div>
+   
       </div>
     </div>
   );

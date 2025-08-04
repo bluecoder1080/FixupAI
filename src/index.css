@@ -8,3 +8,9 @@
  @theme {
   --color-primary: #5044e5;
 } 
+
+/* ✅ Allows scrolling */
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
